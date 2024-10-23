@@ -2,8 +2,6 @@
 
 `docker build -t demoWeb .`
 
-`docker build -t demoweb .`
-
 `docker run -itd demoweb .`
 
 `docker run -itd -p 8080:8080 demoweb`
