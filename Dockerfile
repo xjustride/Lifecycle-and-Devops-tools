@@ -1,4 +1,4 @@
-# Użycie obrazu openjdk jako bazowego
+# Użycie obrazu JDK
 FROM openjdk:11-jdk
 
 # Ustawienie katalogu roboczego
@@ -7,7 +7,7 @@ WORKDIR /app
 # Skopiowanie plików projektu do kontenera
 COPY . /app
 
-# Budowanie projektu Maven
+# Zbudowanie aplikacji za pomocą Mavena
 RUN ./mvnw package
 
 # Wystawienie portu 8080
