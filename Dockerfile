@@ -1,5 +1,5 @@
 # Użycie obrazu JDK
-FROM openjdk:11-jdk
+FROM openjdk:17-jdk
 
 # Ustawienie katalogu roboczego
 WORKDIR /app
